@@ -15,128 +15,32 @@
                     </form>
                 </div>
 
-                <div class="sInput sInput2" style="display: none;">
-                    <form method="post" target="_blank" action="http://www.gaosiedu.com/searchbar/search" name="sbar_form" id="sbar_form" class="courseSearchBar sbar_form">
-                        <ul>
-                            <li>
-                                <select name="season" class="sbar_season" id="season_id">
-                                    <option value="0">学期</option>
-                                    <option value="BJ15Q">秋季课程</option>
-                                    <option value="BJ16H">寒假课程</option>
-                                    <option value="BJ16C">春季课程</option>
-                                    <option value="short">短期专项</option>
-                                </select>
-                            </li>
 
-                            <li><select name="dept" class="sbar_dept" id="dept_id">
-                                <option value="0">学科</option>
-                                <option value="1">数学</option>
-                                <option value="2">语文</option>
-                                <option value="3">英语</option>
-                                <option value="4">物理</option>
-                                <option value="5">化学</option>
-                                <option value="8">冬夏令营</option>
-                                <option value="10">科技</option>
-                                <option value="11">美术</option>
-                                <option value="12">书法</option>
-                                <option value="special">素质教育</option>
-                                <option value="dxly">冬夏令营</option>
-                                <option value="youxue">国际游学</option>
-                            </select>
-                            </li>
-
-                            <li><select name="grade" class="sbar_grade" id="grade_id">
-                                <option value="0">年级</option>
-                                <option value="21">一年级</option>
-                                <option value="22">二年级</option>
-                                <option value="23">三年级</option>
-                                <option value="24">四年级</option>
-                                <option value="25">五年级</option>
-                                <option value="26">六年级</option>
-                                <option value="27">初一</option>
-                                <option value="28">初二</option>
-                                <option value="29">初三</option>
-                                <option value="30">高一</option>
-                                <option value="31">高二</option>
-                                <option value="32">高三</option>
-                            </select>
-                            </li>
-
-
-                            <li><select name="classType" class="sbar_classType" id="classType_id">
-                                <option value="0">班型</option>
-                            </select>
-                            </li>
-
-
-                            <li><select name="area" class="sbar_area" id="area_id">
-                                <option value="0">上课地点</option>
-                                <option value="ARBJHZ">海淀黄庄-教学区域</option>
-                                <option value="ARBJGZF">公主坟-教学区域</option>
-                                <option value="ARBJ03">世纪城--汇博校区</option>
-                                <option value="ARBJ04">大钟寺--中鼎校区</option>
-                                <option value="ARBJ08">世纪城--金源校区</option>
-                                <option value="ARBJ11">西四--平安里校区</option>
-                                <option value="ARBJ14">玉泉路--远洋山水校区</option>
-                                <option value="ARBJ15">望京--六佰本校区</option>
-                                <option value="ARBJ17">学院路--矿大东门校区</option>
-                                <option value="ARBJ19">学院桥--高思大厦校区</option>
-                                <option value="ARBJ24">亚运村校区</option>
-                                <option value="ARBJ25">玉泉路--景藏大厦校区</option>
-                                <option value="ARBJ26">上地校区</option>
-                                <option value="ARBJ27">校外场地</option>
-                                <option value="ARBJ28">阜成门校区</option>
-                                <option value="ARBJ29">广渠门校区</option>
-                                <option value="ARBJ30">朝阳门校区</option>
-                                <option value="ARBJ31">良乡校区</option>
-                            </select>
-                            </li>
-
-                            <li><input type="text" style="padding:2px;" name="keyword" size="20" placeholder="搜索关键词" class="sbar_teacher"></li>
-                            <li><input type="button" value="搜索" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;courseSearch&#39;, &#39;click&#39;, &#39;searchBtn&#39;]);doSearch()" class="sbar_button"></li>
-                        </ul>
-                    </form>
-                </div>
             </div>
         </div>
-        <script type="text/javascript">
 
-            $(function(){
-
-                $('.sbar_season,.sbar_dept, .sbar_grade').change(function(){
-                    var season = $.trim($('.sbar_season').val());
-                    var dept = $.trim($('.sbar_dept').val());
-
-                    if($(this).attr('name') == 'dept') {
-                        var deptName = $(this).find('option:selected').text();
-                        var oGrade = $('.sbar_grade');
-                        if(deptName == '英语') {
-                            oGrade.append('<option value="xgn1">新概念一</option>')
-                            oGrade.append('<option value="xgn2">新概念二</option>')
-                        } else {
-                            oGrade.find('option[value=xgn2]').remove();
-                            oGrade.find('option[value=xgn1]').remove();
-                        }
-                    }
-
-                    if('0' != season && '0' != dept) {
-                        var formData = $('.sbar_form').serialize();
-                        $('.sbar_classType').get(0).length = 1;
-                        $.post('/searchbar/ajaxArgs', formData, function(classTypes){
-                            $.each(classTypes, function(ctId, ctName){
-                                $('.sbar_classType').append('<option value="' + ctId + '">' + ctName + '</option>');
-                            })
-                        }, 'json');
-                    }
-                })
-            })
-            function doSearch() {
-                $('.sbar_form').submit();
-            }
-        </script>
         <div class="tel">
             　课程咨询：<span>010-56639999</span>   (8:00-21:00) <br>
             一对一课程：<span>010-56639988</span>   (9:00-20:00)
         </div>
     </div>
 </div>
+
+<div class="header">
+
+    <!-- sline end -->
+    <div class="navigationBar">
+        <div class="navigationBarInnel">
+            <tt title="所有产品分类"></tt>
+            <div class="mainMenuV">
+                <a href="http://www.w2bc.com/">首页</a> <a href="http://www.w2bc.com/" target="_blank">
+                网游交易区</a> <a href="http://www.w2bc.com/" target="_blank">积分商城</a> <a href="http://www.w2bc.com/?"
+                                                                                     target="_blank">免费游戏</a>
+            </div>
+            <!-- mainMenuV end -->
+        </div>
+        <!-- mainMenudl end -->
+    </div>
+    <!-- navigationBar end -->
+</div>
+<!-- header end -->

@@ -1,24 +1,103 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 	<html>
 	<head>
-		<title>{$site_seo_title} {$site_name}</title>
-		<meta name="keywords" content="{$site_seo_keywords}" />
-		<meta name="description" content="{$site_seo_description}">
-		<tc_include file="Public:head" />
-        <link href="__TMPL__Public/css/style.css" rel="stylesheet">
+		<title><?php echo ($site_seo_title); ?> <?php echo ($site_name); ?></title>
+		<meta name="keywords" content="<?php echo ($site_seo_keywords); ?>" />
+		<meta name="description" content="<?php echo ($site_seo_description); ?>">
+		
+<div class="pMiniBar">
+    <div class="wrap clearfix">
+        <div class="pTopMap">
+            <div class="tmTit" id="pSchoolMap"><a href="http://www.gaosiedu.com/gsschool/" target="_blank">找到离您最近的高思学校</a><s></s></div>
+            <div class="tmCon">
+                <div class="tmBox">
+                    <ul class="schoolList clearfix">
+                       </ul>
+                </div>
+            </div>
+        </div>
 
-        <link rel="stylesheet" type="text/css" href="__TMPL__Public/css/b2c.tip.css" />
-        <link href="__TMPL__Public/css/slippry/slippry.css" rel="stylesheet">
-        <script type="text/javascript" src="__TMPL__Public/js/jquery.js"></script
-        <script src="__TMPL__Public/js/slippry.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="__TMPL__Public/css/common.css" />
-        <link rel="stylesheet" type="text/css" href="__TMPL__Public/css/b2c_pub.css" />
+        <div class="pLogin left "><a href="http://student.gaosiedu.com/?source=aHR0cDovL3d3dy5nYW9zaWVkdS5jb20v" class="btn login">登录</a><a href="http://student.gaosiedu.com/System/User/registerS" class="btn">注册</a></div>
+        <div class="pMinav">
+            <div class="left">
+                <a href="javascript:void(0);" id="addFavorite" class="s1"><s></s>收藏高思</a>
+                <a href="http://student.gaosiedu.com/" target="_blank" class="s2"><s></s>学员系统</a>
+            </div>
+            <div class="qxSite left">
+                <a href="http://student.gaosiedu.com/" target="_blank" class="tmTit">
+                    旗下网站<s></s>
+                </a>
+                <ul>
+                    <li><a href="http://www.gaosivip.com/" target="_blank">高思一对一</a></li>
+                    <li><a href="http://www.aisichuang.com/" target="_blank">爱思创</a></li>
+                    <li><a href="http://www.aixuexi.com/" target="_blank">爱学习</a></li>
+                    <li><a href="http://www.91haoke.com/" target="_blank">91好课</a></li>
+                </ul>
+            </div>
+            <p class="left">投诉建议：56639900（8:00-21:00）   </p>
+        </div>
+    </div>
+</div>
+        <link href="/themes/simplebootx/Public/css/style.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="/themes/simplebootx/Public/css/b2c.tip.css" />
+        <link href="/themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+        <script type="text/javascript" src="/themes/simplebootx/Public/js/jquery.js"></script
+        <script src="/themes/simplebootx/Public/js/slippry.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/themes/simplebootx/Public/css/common.css" />
+        <link rel="stylesheet" type="text/css" href="/themes/simplebootx/Public/css/b2c_pub.css" />
 
 
 
 	</head>
 <body class="indexpage" id="default">
-<tc_include file="Public:nav" />
+<?php echo hook('body_start');?>
+<div class="pHeader">
+    <div class="wrap clearfix">
+        <div class="logo"><a href="./index_files/index.html">高思教育</a></div>
+
+        <div class="tSearch">
+            <ul class="tabs">
+                <li class="current">模糊搜索</li>
+                <li>条件搜索</li>
+            </ul>
+            <div class="bd">
+                <div class="sInput">
+                    <form method="post" action="http://www.gaosiedu.com/searchbar/search" target="_blank">
+                        <input type="text" name="keyword" placeholder="请输入课程名称或老师姓名" class="input"><input type="submit" value="搜索" class="sbar_button">
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="tel">
+            　课程咨询：<span>010-56639999</span>   (8:00-21:00) <br>
+            一对一课程：<span>010-56639988</span>   (9:00-20:00)
+        </div>
+    </div>
+</div>
+
+<div class="header">
+
+    <!-- sline end -->
+    <div class="navigationBar">
+        <div class="navigationBarInnel">
+            <tt title="所有产品分类"></tt>
+            <div class="mainMenuV">
+                <a href="http://www.w2bc.com/">首页</a> <a href="http://www.w2bc.com/" target="_blank">
+                网游交易区</a> <a href="http://www.w2bc.com/" target="_blank">积分商城</a> <a href="http://www.w2bc.com/?"
+                                                                                     target="_blank">免费游戏</a>
+            </div>
+            <!-- mainMenuV end -->
+        </div>
+        <!-- mainMenudl end -->
+    </div>
+    <!-- navigationBar end -->
+</div>
+<!-- header end -->
+
 
 <div class="header">
 
@@ -189,20 +268,14 @@
 </div>
 
 
-<php>
-    $home_slides=sp_getslide("index");
-
-    $home_slides=empty($home_slides)?$default_home_slides:$home_slides;
-</php>
+<?php $home_slides=sp_getslide("index"); $home_slides=empty($home_slides)?$default_home_slides:$home_slides; ?>
 <ul id="homeslider" class="unstyled">
-    <foreach name="home_slides" item="vo">
-        <li>
+    <?php if(is_array($home_slides)): foreach($home_slides as $key=>$vo): ?><li>
             <div class="caption-wraper">
 
             </div>
-            <a href="{$vo.slide_url}"><img src="{:sp_get_asset_upload_path($vo['slide_pic'])}" alt=""></a>
-        </li>
-    </foreach>
+            <a href="<?php echo ($vo["slide_url"]); ?>"><img src="<?php echo sp_get_asset_upload_path($vo['slide_pic']);?>" alt=""></a>
+        </li><?php endforeach; endif; ?>
 </ul>
 
 
@@ -213,9 +286,134 @@
 
 </div>
 
-<tc_include file="Public:footer"/>
-<tc_include file="Public:scripts"/>
-<script src="__TMPL__Public/js/slippry.min.js"></script>
+<?php echo hook('footer');?>
+
+<!--页脚-->
+<div class="pAboutlink">
+    <div class="wrap clearfix">
+        <dl class="d1">
+            <dt><i></i>关于高思</dt>
+            <dd><a href="http://www.gaosiedu.com/about/gsjs/" target="_blank">高思介绍</a></dd>
+            <dd><a href="http://www.gaosiedu.com/about/gswh/" target="_blank">高思文化</a></dd>
+            <dd><a href="http://www.gaosiedu.com/about/jyln/" target="_blank">教育理念</a></dd>
+            <dd><a href="http://www.gaosiedu.com/sitemap.shtml" target="_blank">网站地图</a></dd>
+        </dl>
+        <dl class="d2">
+            <dt><i></i>选择高思</dt>
+            <dd><a href="http://www.gaosiedu.com/about/pinpai/" target="_blank">高思品牌</a></dd>
+            <dd><a href="http://www.gaosiedu.com/about/mingshi/" target="_blank">优秀名师</a></dd>
+            <dd><a href="http://www.gaosiedu.com/about/chengji/" target="_blank">成绩斐然</a></dd>
+            <dd><a href="http://www.gaosiedu.com/about/fuwu/" target="_blank">优质服务</a></dd>
+        </dl>
+        <dl class="d3">
+            <dt><i></i>加入高思</dt>
+            <dd><a href="http://job.gaosiedu.com/" target="_blank">高思招聘</a></dd>
+            <dd><a href="http://www.gaosiedu.com/help/question/show-5565.shtml" target="_blank">报班指南</a></dd>
+            <dd><a href="http://www.gaosiedu.com/about/lxgs/" target="_blank">合作洽谈</a></dd>
+            <dd><a href="http://www.gaosiedu.com/flink/" target="_blank">友情链接</a></dd>
+        </dl>
+        <dl class="d5">
+            <dt><i></i>旗下网站</dt>
+            <dd><a target="_blank" href="http://www.gaosivip.com/">高思一对一</a></dd>
+            <dd><a target="_blank" href="http://www.aisichuang.com/">爱思创</a></dd>
+            <dd><a target="_blank" href="http://www.aixuexi.com/">爱学习</a></dd>
+            <dd><a target="_blank" href="http://www.91haoke.com/">91好课</a></dd>
+        </dl>
+        <dl class="d4">
+            <dt><i></i>联系高思</dt>
+            <dd>课程咨询：56639999（8:00-21:00）</dd>
+            <dd>1对1咨询：56639988（9:00-20:00）</dd>
+            <dd>投诉建议：56639900（8:00-21:00）</dd>
+        </dl>
+    </div>
+</div>
+<div class="pCopyright">
+    咨询电话：56639999　建议邮箱：gsjy@gaosiedu.com<br>
+    Copyright © 2015 Gaosiedu.com, All Rights Reserved 高思教育 版权所有<br>
+    京ICP备12028606号-1 京公网安备1101802010374号
+</div>
+<!-- 统计 -->
+
+
+<?php echo ($site_tongji); ?>
+
+<script type="text/javascript">
+//全局变量
+var GV = {
+    DIMAUB: "",
+    JS_ROOT: "/public/js/",
+    TOKEN: ""
+};
+</script>
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/public/js/jquery.js"></script>
+    <script src="/public/js/wind.js"></script>
+    <script src="/themes/simplebootx/Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/public/js/frontend.js"></script>
+	<script>
+	$(function(){
+		$('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
+		
+		$("#main-menu li.dropdown").hover(function(){
+			$(this).addClass("open");
+		},function(){
+			$(this).removeClass("open");
+		});
+		
+		$.post("<?php echo U('user/index/is_login');?>",{},function(data){
+			if(data.status==1){
+				if(data.user.avatar){
+					$("#main-menu-user .headicon").attr("src",data.user.avatar.indexOf("http")==0?data.user.avatar:"/data/upload/avatar/"+data.user.avatar);
+				}
+				
+				$("#main-menu-user .user-nicename").text(data.user.user_nicename!=""?data.user.user_nicename:data.user.user_login);
+				$("#main-menu-user li.user.login").show();
+				
+			}
+			if(data.status==0){
+				$("#main-menu-user li.user.offline").show();
+			}
+			
+		});	
+		;(function($){
+			$.fn.totop=function(opt){
+				var scrolling=false;
+				return this.each(function(){
+					var $this=$(this);
+					$(window).scroll(function(){
+						if(!scrolling){
+							var sd=$(window).scrollTop();
+							if(sd>100){
+								$this.fadeIn();
+							}else{
+								$this.fadeOut();
+							}
+						}
+					});
+					
+					$this.click(function(){
+						scrolling=true;
+						$('html, body').animate({
+							scrollTop : 0
+						}, 500,function(){
+							scrolling=false;
+							$this.fadeOut();
+						});
+					});
+				});
+			};
+		})(jQuery); 
+		
+		$("#backtotop").totop();
+		
+		
+	});
+	</script>
+
+
+<script src="/themes/simplebootx/Public/js/slippry.min.js"></script>
 <script>
     $(function() {
         var demo1 = $("#homeslider").slippry({
@@ -231,6 +429,6 @@
 </script>
 
 
-{:hook('footer_end')}
+<?php echo hook('footer_end');?>
 </body>
 </html>

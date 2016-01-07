@@ -1,0 +1,963 @@
+[ 2016-01-07T11:45:08+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T11:47:47+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T11:49:21+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T11:49:25+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T11:50:44+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003183s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T11:52:55+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002931s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:13:32+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:14:21+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:15:12+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:15:19+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002628s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:15:25+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:15:39+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:15:51+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003109s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:16:08+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002749s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:16:48+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:17:51+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:18:15+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002286s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:20:38+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:20:42+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:21:08+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002372s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:22:33+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:22:41+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:23:32+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:41:22+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:42:09+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:42:18+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:43:12+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002697s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T13:43:44+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:01:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:01:53+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:02:57+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:03:32+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003296s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:06:44+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:07:00+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004111s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:07:08+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003115s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:08:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:08:45+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:09:01+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002876s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:10:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002928s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:10:16+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:10:26+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003296s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:10:41+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:11:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003092s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:11:31+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:11:42+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002594s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:11:57+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:12:15+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:12:22+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003683s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:12:47+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:12:52+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003061s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:13:10+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003305s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:13:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:14:24+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002576s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:14:29+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002692s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:16:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:16:55+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:17:01+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003247s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:17:17+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002947s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:17:23+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003450s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:17:31+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004054s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:19:02+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:19:40+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:19:47+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:19:59+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:20:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:20:16+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:25:02+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:25:07+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003893s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:25:28+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:25:43+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:29:53+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T14:38:55+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:03:49+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:04:20+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:05:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:05:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005575s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:05:30+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003492s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:06:21+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:07:02+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003305s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:09:35+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003272s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:10:23+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:10:48+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002854s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:10:52+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003169s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:14:24+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:16:26+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:17:40+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:19:23+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:26:54+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:27:42+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:29:06+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:33:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:35:03+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:35:13+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:35:32+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:35:43+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:35:49+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:35:55+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:36:58+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:37:11+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:38:20+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:42:44+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:42:55+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:43:57+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:45:09+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:45:25+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T15:45:36+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+
+[ 2016-01-07T16:38:40+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\webroot\www\school\school\simplewind\Core\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: url E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\webroot\www\school\school\application\Common\Controller\AppframeController.class.php 第 31 行.
+

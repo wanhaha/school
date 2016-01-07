@@ -1,0 +1,1 @@
+a:10:{s:9:"site_name";s:12:"坤凡教育";s:9:"site_host";s:22:"http://www.kunfan.com/";s:9:"site_root";s:0:"";s:8:"site_icp";s:0:"";s:16:"site_admin_email";s:16:"kunfan@admin.com";s:11:"site_tongji";s:0:"";s:14:"site_copyright";s:0:"";s:14:"site_seo_title";s:12:"坤凡教育";s:17:"site_seo_keywords";s:12:"坤凡教育";s:20:"site_seo_description";s:12:"坤凡教育";}

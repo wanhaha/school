@@ -5,7 +5,7 @@ body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,input,textare
 input,select,textarea,table{font-family:'Microsoft YaHei','微软雅黑','SimSun','宋体','Arial','Tahoma';}
 em,i{font-style:normal;}ul,ol{list-style:none;}
 img{border:none;vertical-align:middle;}table{border-collapse:collapse;}
-a{color:#333;text-decoration:none;}a:hover{color:#f74600;text-decoration:underline;}
+
 
 /* Global */
 body{font:14px/1.5 'Microsoft YaHei','微软雅黑','SimSun','宋体','Tahoma';background-color:#FFF;overflow-x:hidden;}
