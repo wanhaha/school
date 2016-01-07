@@ -6,138 +6,787 @@
 		<meta name="description" content="{$site_seo_description}">
 		<tc_include file="Public:head" />
 		<link href="__TMPL__Public/css/slippry/slippry.css" rel="stylesheet">
-		<style>
-			.caption-wraper{position: absolute;left:50%;bottom:2em;}
-			.caption-wraper .caption{
-			position: relative;left:-50%;
-			background-color: rgba(0, 0, 0, 0.54);
-			padding: 0.4em 1em;
-			color:#fff;
-			-webkit-border-radius: 1.2em;
-			-moz-border-radius: 1.2em;
-			-ms-border-radius: 1.2em;
-			-o-border-radius: 1.2em;
-			border-radius: 1.2em;
-			}
-			@media (max-width: 767px){
-				.sy-box{margin: 12px -20px 0 -20px;}
-				.caption-wraper{left:0;bottom: 0.4em;}
-				.caption-wraper .caption{
-				left: 0;
-				padding: 0.2em 0.4em;
-				font-size: 0.92em;
-				-webkit-border-radius: 0;
-				-moz-border-radius: 0;
-				-ms-border-radius: 0;
-				-o-border-radius: 0;
-				border-radius: 0;}
-			}
-		</style>
+        <link href="__TMPL__Public/css/style.css" rel="stylesheet">
+        <link href="__TMPL__Public/css/base.css" rel="stylesheet">
+        <script src="__TMPL__Public/js/jquery.js"></script>
+        <script src="__TMPL__Public/js/jquery.gstools.min.js"></script>
+        <script src="__TMPL__Public/js/common.js"></script>
+        <script src="__TMPL__Public/js/slippry.min.js"></script>
+        <script src="__TMPL__Public/js/popup.js"></script>
 	</head>
-<body class="body-white">
+<body class="indexpage">
 <tc_include file="Public:nav" />
+<div id="videoplay" style="display:none;"></div>
+<div class="pNavigation">
+    <div class="wrap clearfix">
+        <div class="pCourseNav tindex 2015pCourseNav" style="position: absolute;">
+            <div class="courseHd"><h2>课程导航</h2><i></i></div>
+            <div class="courseBd" id="courseNavBd">
+                <div class="item m1">
+                    <h3><i></i><a href="http://www.gaosiedu.com/course/category-1043.shtml" target="_blank">一年级</a><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1043.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1044.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">精英</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1032.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">启航</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1692.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">剑桥</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7331.shtml" target="_blank">科技</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a><a href="http://www.gaosiedu.com/system/show-7330.shtml" target="_blank">口才</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7397.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item m2">
+                    <h3><i></i><a href="http://www.gaosiedu.com/course/category-1045.shtml" target="_blank">二年级</a><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1045.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A+</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1149.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1046.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">精英</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1142.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1033.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">培优</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>作文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1866.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">听说语文</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1692.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">剑桥</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7331.shtml" target="_blank">科技</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a><a href="http://www.gaosiedu.com/system/show-7330.shtml" target="_blank">口才</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7397.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
 
-<php>
-$home_slides=sp_getslide("portal_index");
+                        </div>
+                    </div>
+                </div>
+                <div class="item m3">
+                    <h3><i></i><a href="http://www.gaosiedu.com/course/category-1048.shtml" target="_blank">三年级</a><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1048.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A+</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1051.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1049.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">精英</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1143.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1035.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">培优</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>作文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1748.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1036.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">作文</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a target="_blank" href="http://www.gaosiedu.com/course/category-1150.shtml" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">新概念</a><a class="no" target="_blank" href="http://www.gaosiedu.com/course/category-1692.shtml" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">剑桥</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7331.shtml" target="_blank">科技</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a><a href="http://www.gaosiedu.com/system/show-7330.shtml" target="_blank">口才</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7397.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
 
-$home_slides=empty($home_slides)?$default_home_slides:$home_slides;
-</php>
-<ul id="homeslider" class="unstyled">
-	<foreach name="home_slides" item="vo">
-	<li>
-		<div class="caption-wraper">
-			<div class="caption">{$vo.slide_name}</div>
-		</div>
-		<a href="{$vo.slide_url}"><img src="{:sp_get_asset_upload_path($vo['slide_pic'])}" alt=""></a>
-	</li>
-	</foreach>
-</ul>
-<div class="container">
-	
-	<div>
-		<h1 class="text-center">快速了解ThinkCMF</h1>
-		<h3 class="text-center">Quickly understand the ThinkCMF</h3>
-	</div>
-	<div class="row">
-		<div class="span4">
-			 <h2 class="font-large nospace"><i class="fa fa-bars"></i> MVC分层模式</h2>
-             <p>使用MVC应用程序被分成三个核心部件：模型（M）、视图（V）、控制器（C），他不是一个新的概念，只是ThinkCMF将其发挥到了极致。</p>
-		</div>
-		<div class="span4">
-			 <h2 class="font-large nospace"><i class="fa fa-group"></i> 用户管理</h2>
-             <p>ThinkCMF内置了灵活的用户管理方式，并可直接与第三方站点进行互联互通，如果你愿意甚至可以对单个用户或群体用户的行为进行记录及分享，为您的运营决策提供有效参考数据。</p>
-		</div>
-		<div class="span4">
-			  <h2 class="font-large nospace"><i class="fa fa-cloud"></i> 云端部署</h2>
-              <p>通过驱动的方式可以轻松支持云平台的部署，让你的网站无缝迁移，内置已经支持SAE、BAE，正式版将对云端部署进行进一步优化。</p>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="span4">
-			 <h2 class="font-large nospace"><i class="fa fa-heart"></i> 安全策略</h2>
-             <p>提供的稳健的安全策略，包括备份恢复，容错，防治恶意攻击登陆，网页防篡改等多项安全管理功能，保证系统安全，可靠，稳定的运行。</p>
-		</div>
-		<div class="span4">
-			 <h2 class="font-large nospace"><i class="fa fa-cubes"></i> 应用模块化</h2>
-             <p>提出全新的应用模式进行扩展，不管是你开发一个小功能还是一个全新的站点，在ThinkCMF中你只是增加了一个APP，每个独立运行互不影响，便于灵活扩展和二次开发。</p>
-		</div>
-		<div class="span4">
-			  <h2 class="font-large nospace"><i class="fa fa-certificate"></i> 免费开源</h2>
-              <p>代码遵循Apache2开源协议，免费使用，对商业用户也无任何限制。</p>
-		</div>
-	</div>
-	
-	<div>
-		<h1 class="text-center">最新资讯</h1>
-		<h3 class="text-center">Last News</h3>
-	</div>
-	<php>
-		$lastnews=sp_sql_posts("cid:$portal_index_lastnews;field:post_title,post_excerpt,tid,smeta;order:listorder asc;limit:4;"); 
-	</php>
-	<div class="row">
-		<foreach name="lastnews" item="vo">
-		<php>$smeta=json_decode($vo['smeta'],true);</php>
-		<div class="span3">
-			<div class="tc-gridbox">
-				<div class="header">
-					<div class="item-image">
-						<a href="{:leuu('article/index',array('id'=>$vo['tid']))}">
-							<if condition="empty($smeta['thumb'])"> 
-								<img src="__TMPL__Public/images/default_tupian1.png" class="img-responsive" alt="{$vo.post_title}"/>
-							<else /> 
-								<img src="{:sp_get_asset_upload_path($smeta['thumb'])}" class="img-responsive img-thumbnail" alt="{$vo.post_title}" />
-							</if>
-						</a>
-					</div>
-					<h3><a href="{:leuu('article/index',array('id'=>$vo['tid']))}">{$vo.post_title}</a></h3>
-					<hr>
-				</div>
-				<div class="body">
-					<p><a href="{:leuu('article/index',array('id'=>$vo['tid']))}">{:msubstr($vo['post_excerpt'],0,32)}</a></p>
-				</div>
-			</div>
-		</div>
-		</foreach>
-	</div>
-<tc_include file="Public:footer"/>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item m4">
+                    <h3><i></i><span><a href="http://www.gaosiedu.com/course/category-1053.shtml" target="_blank">四年级</a></span><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1053.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A+</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1056.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1054.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">精英</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1055.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">培优</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1144.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1037.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">培优</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>作文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1751.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1038.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">作文</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a target="_blank" href="http://www.gaosiedu.com/course/category-1150.shtml" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">新概念</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7331.shtml" target="_blank">科技</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a><a href="http://www.gaosiedu.com/system/show-7330.shtml" target="_blank">口才</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7397.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item m5">
+                    <h3><i></i><span><a href="http://www.gaosiedu.com/course/category-1058.shtml" target="_blank">五年级</a></span><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1058.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A+</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1061.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1059.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">精英</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1060.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">培优</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1145.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1039.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">培优</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>作文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1754.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1755.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">作文</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1727.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1868.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1869.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">精英</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1870.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">辅修</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7331.shtml" target="_blank">科技</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a><a href="http://www.gaosiedu.com/system/show-7330.shtml" target="_blank">口才</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7397.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item m6">
+                    <h3><i></i><span><a href="http://www.gaosiedu.com/course/category-1063.shtml" target="_blank">六年级</a></span><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1063.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A+</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1066.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子A</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1064.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">精英</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1065.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">培优</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1601.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">高效升学</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1146.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1041.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">培优</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>作文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1763.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1764.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">作文阅读</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1733.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">精英</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1734.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">串讲</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1871.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子衔接</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7331.shtml" target="_blank">科技</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a><a href="http://www.gaosiedu.com/system/show-7330.shtml" target="_blank">口才</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7397.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item m7">
+                    <h3><i></i><span><a href="http://www.gaosiedu.com/course/category-1800.shtml" target="_blank">七年级</a></span><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1800.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1801.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1795.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1796.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1092.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1808.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1809.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>物理：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1102.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">超前</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7398.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item m8">
+                    <h3><i></i><span><a href="http://www.gaosiedu.com/course/category-1803.shtml" target="_blank">八年级</a></span><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1803.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1804.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1797.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1798.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1095.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1810.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1811.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>物理：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1814.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1815.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>化学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1437.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">超前</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7398.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item m9">
+                    <h3><i></i><span><a href="http://www.gaosiedu.com/course/category-1614.shtml" target="_blank">九年级</a></span><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1614.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1806.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1705.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1799.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1703.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1812.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考高分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1852.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标满分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>物理：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1826.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1851.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考签约</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>化学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1828.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考满分</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1829.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">中考高分</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7398.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item m10">
+                    <h3><i></i><span><a href="http://www.gaosiedu.com/course/category-1432.shtml" target="_blank">高一</a></span><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1432.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标清北</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1119.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1860.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1861.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>英语：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1127.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1862.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>物理：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1426.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标清北</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1132.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>化学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1434.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标清北</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1136.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7398.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item m11">
+                    <h3><i></i><span><a href="http://www.gaosiedu.com/course/category-1615.shtml" target="_blank">高二</a></span><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1615.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标清北</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1123.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                </dd>
+                            </dl>
+
+                            <dl>
+                                <dt>语文：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1863.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1864.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标</a>
+                                </dd>
+                            </dl>
+
+                            <dl>
+                                <dt>物理：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1822.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标清北</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1134.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>化学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1824.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标清北</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1708.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7398.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item m12">
+                    <h3><i></i><span><a href="http://www.gaosiedu.com/course/category-1821.shtml" target="_blank">高三</a></span><s></s></h3>
+                    <div class="sCourseBd clearfix">
+                        <div class="subItem">
+                            <dl>
+                                <dt>数学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1821.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标清北</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1126.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                </dd>
+                            </dl>
+
+                            <dl>
+                                <dt>物理：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1823.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标清北</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1618.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>化学：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/course/category-1825.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">目标清北</a>
+                                    <a href="http://www.gaosiedu.com/course/category-1620.shtml" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;indexCourse&#39;, &#39;click&#39;, &#39;course&#39;]);">尖子</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>素质：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7333.shtml" target="_blank">美术</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7332.shtml" target="_blank">书法</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>营地：</dt>
+                                <dd>
+                                    <a href="http://www.gaosiedu.com/system/show-7398.shtml" target="_blank">冬夏令营</a>
+                                    <a href="http://www.gaosiedu.com/system/show-7399.shtml" target="_blank">国际游学</a>
+                                    <a href="http://www.gaosiedu.com/special/aisichuang/xialingying/beijing/index.html" target="_blank">国内游学</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pMainNav">
+            <ul>
+                <li class="item i1"><div class="sub"><a href="./index_files/index.html">首页</a></div></li>
+                <li class="item i3"><div class="sub"><a href="http://xx.gaosiedu.com/" target="_blank">小学<em>●</em>小升初</a></div>
+                    <div class="subitem">
+                        <ul>
+                            <li><a href="http://xx.gaosiedu.com/xxChinese/" target="_blank">思泉语文</a></li>
+                            <li><a href="http://xx.gaosiedu.com/xxMath/" target="_blank">小学数学</a></li>
+                            <li><a href="http://xx.gaosiedu.com/xxEnglish/" target="_blank">小学英语</a></li>
+                            <li><a href="http://xx.gaosiedu.com/xiaoshengchu/" target="_blank">小升初</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item i4"><div class="sub"><a href="http://zx.gaosiedu.com/" target="_blank">中学<em>●</em>中高考</a></div>
+                    <div class="subitem">
+                        <ul>
+                            <li><a href="http://zx.gaosiedu.com/zhongkao/" target="_blank">中考</a></li>
+                            <li><a href="http://zx.gaosiedu.com/gaokao/" target="_blank">高考</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item i5"><div class="sub"><a href="http://jingsai.gaosiedu.com/" target="_blank">竞赛<em>●</em>考级</a></div>
+                    <div class="subitem">
+                        <ul>
+                            <li><a href="http://jingsai.gaosiedu.com/gaosibei/" target="_blank">高思杯</a></li>
+                            <li><a href="http://jingsai.gaosiedu.com/xiwangbei/" target="_blank">希望杯</a></li>
+                            <li><a href="http://jingsai.gaosiedu.com/yingchunbei/" target="_blank">迎春杯</a></li>
+                            <li><a href="http://jingsai.gaosiedu.com/zoumeibei/" target="_blank">走美杯</a></li>
+                            <li><a href="http://jingsai.gaosiedu.com/huabeisai/" target="_blank">华杯赛</a></li>
+                            <li><a href="http://jingsai.gaosiedu.com/chugaozhong/" target="_blank">初高中数学竞赛</a></li>
+                            <li><a href="http://jingsai.gaosiedu.com/guoji/" target="_blank">国际数学竞赛</a></li>
+                            <li><a href="http://jingsai.gaosiedu.com/yuwen/" target="_blank">语文竞赛</a></li>
+                            <li><a href="http://jingsai.gaosiedu.com/yingyu/" target="_blank">英语考级</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item i9"><div class="sub"><a href="http://www.gaosiedu.com/zuowen" target="_blank">作文</a></div>
+                    <div class="subitem">
+                        <ul>
+                            <li><a href="http://www.gaosiedu.com/zuowen/s1" target="_blank">小学作文</a></li>
+                            <li><a href="http://www.gaosiedu.com/zuowen/s2" target="_blank">初中作文</a></li>
+                            <li><a href="http://www.gaosiedu.com/zuowen/s3" target="_blank">高中作文</a></li>
+                            <li><a href="http://www.gaosiedu.com/zuowen/huati" target="_blank">话题作文</a></li>
+                            <li><a href="http://www.gaosiedu.com/zuowen/jieri" target="_blank">节日作文</a></li>
+                            <li><a href="http://www.gaosiedu.com/zuowen/sucai" target="_blank">写作素材</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item i6"><div class="sub"><a href="http://www.gaosiedu.com/teacher/" target="_blank">名师</a></div>
+                    <div class="subitem">
+                        <ul>
+                            <li><a href="http://www.gaosiedu.com/teacher/1-0-0" target="_blank">小学名师</a></li>
+                            <li><a href="http://www.gaosiedu.com/teacher/7-0-0" target="_blank">初中名师</a></li>
+                            <li><a href="http://www.gaosiedu.com/teacher/10-0-0" target="_blank">高中名师</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item i7"><div class="sub"><a href="http://class.gaosiedu.com/" target="_blank">网课</a></div>
+                    <div class="subitem">
+                        <ul>
+                            <li><a href="http://www.gaosiedu.com/class/siquan/" target="_blank">语文</a></li>
+                            <li><a href="http://www.gaosiedu.com/class/math/" target="_blank">数学</a></li>
+                            <li><a href="http://www.gaosiedu.com/class/en/" target="_blank">英语</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item i8"><div class="sub"><a href="http://bbs.gaosiedu.com/" target="_blank">论坛</a></div>
+                    <div class="subitem">
+                        <ul>
+                            <li><a href="http://bbs.gaosiedu.com/forum-48-1.html" target="_blank">幼升小</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-8-1.html" target="_blank">一二年级</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-2-1.html" target="_blank">三四五年级</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-3-1.html" target="_blank">六年级</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-47-1.html" target="_blank">初中</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-7-1.html" target="_blank">高中</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-6-1.html" target="_blank">思泉语文</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-13-1.html" target="_blank">英语</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-59-1.html" target="_blank">高思网课</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-65-1.html" target="_blank">特长升学</a></li>
+                            <li><a href="http://bbs.gaosiedu.com/forum-66-1.html" target="_blank">游学●夏令营</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item i8"><div class="sub"><a href="http://www.gaosivip.com/" target="_blank">一对一</a></div>
+                    <div class="subitem">
+                        <ul>
+                            <li><a href="http://www.gaosivip.com/So/Course-index-grade-0-subject-0" target="_blank">课程</a></li>
+                            <li><a href="http://www.gaosivip.com/So/Teacher-index" target="_blank">名师</a></li>
+                            <li><a href="http://www.gaosivip.com/shiti/" target="_blank">试题</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item i8"><div class="sub"><a href="http://www.aisichuang.com/" target="_blank">爱思创<em>●</em>特长</a></div>
+                    <div class="subitem">
+                        <ul>
+                            <li><a href="http://www.aisichuang.com/html/keji/new/" target="_blank">科技</a></li>
+                            <li><a href="http://www.aisichuang.com/html/meishu/new/" target="_blank">美术</a></li>
+                            <li><a href="http://www.aisichuang.com/html/shufa/new/" target="_blank">书法</a></li>
+                            <li><a href="http://www.aisichuang.com/html/dongxialingying/new/" target="_blank">冬夏令营</a></li>
+                            <li><a href="http://www.aisichuang.com/html/guoneiyouxue/new/" target="_blank">国内游学</a></li>
+                            <li><a href="http://www.aisichuang.com/html/guojiyouxue/new/" target="_blank">国际游学</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
 
+
+<div class="partBanner">
+    <div class="slide" id="indexSlide">
+        <ul>
+            <li style="position: absolute; z-index: 1; opacity: 0; background: url(http://www.gaosiedu.com/) 50% 50% rgb(255, 255, 255);"><div class="pic" style="background:url(http://img.gaosiedu.com/uploadfile/2015/1230/20151230035035608.jpg) no-repeat 50% 0"><a href="http://www.gaosiedu.com/special/2015/wanrentiaozhan/index.html#sitidaan" target="_blank">2015万人挑战赛对答案</a></div></li>
+            <li style="position: absolute; z-index: 2; opacity: 1; background: url(http://www.gaosiedu.com/) 50% 50% rgb(255, 255, 255);"><div class="pic" style="background:url(http://img.gaosiedu.com/uploadfile/2015/1225/20151225051950925.jpg) no-repeat 50% 0"><a href="http://www.gaosiedu.com/special/2015/2016xiaoshengchu/" target="_blank">2016小升初名校目标班</a></div></li>
+            <li style="position: absolute; z-index: 1; opacity: 0; background: url(http://www.gaosiedu.com/) 50% 50% rgb(255, 255, 255);"><div class="pic" style="background:url(http://img.gaosiedu.com/uploadfile/2015/1230/20151230031542300.jpg) no-repeat 50% 0"><a href="http://www.gaosivip.com/2015/12/6-290.shtml" target="_blank">万人挑战赛诊断</a></div></li>
+            <li style="position: absolute; z-index: 1; opacity: 0; background: url(http://www.gaosiedu.com/) 50% 50% rgb(255, 255, 255);"><div class="pic" style="background:url(http://img.gaosiedu.com/uploadfile/2015/1106/20151106015410443.jpg) no-repeat 50% 0"><a href="http://www.gaosiedu.com/special/2015/xiaoxuehanchunban/" target="_blank">高思2016小学寒春专题</a></div></li>
+            <li style="position: absolute; z-index: 1; opacity: 0; background: url(http://www.gaosiedu.com/) 50% 50% rgb(255, 255, 255);"><div class="pic" style="background:url(http://img.gaosiedu.com/uploadfile/2015/1106/20151106011606375.jpg) no-repeat 50% 0"><a href="http://www.gaosiedu.com/special/2015/zhongxuehanchunban/" target="_blank">高思2016中学寒春专题</a></div></li>
+        </ul>
+        <div class="slideNavi"><span class="">1</span><span class="current">2</span><span class="">3</span><span class="">4</span><span class="">5</span></div></div>
+</div>
+
+<div class="ind-content">
+
+
+
+
+
+
+
+</div>
+<tc_include file="Public:footer"/>
 <tc_include file="Public:scripts"/>
-<script src="__TMPL__Public/js/slippry.min.js"></script>
-<script>
-$(function() {
-	var demo1 = $("#homeslider").slippry({
-		transition: 'fade',
-		useCSS: true,
-		captions: false,
-		speed: 1000,
-		pause: 3000,
-		auto: true,
-		preload: 'visible'
-	});
-});
-</script>
+
+
 {:hook('footer_end')}
 </body>
 </html>
