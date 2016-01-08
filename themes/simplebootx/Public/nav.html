@@ -1,22 +1,10 @@
 {:hook('body_start')}
 <div class="pHeader">
     <div class="wrap clearfix">
-        <div class="logo"><a href="./index_files/index.html">高思教育</a></div>
+        <div class="logo"><a href="./index_files/index.html">坤凡教育</a></div>
 
         <div class="tSearch">
-            <ul class="tabs">
-                <li class="current">模糊搜索</li>
-                <li>条件搜索</li>
-            </ul>
-            <div class="bd">
-                <div class="sInput">
-                    <form method="post" action="http://www.gaosiedu.com/searchbar/search" target="_blank">
-                        <input type="text" name="keyword" placeholder="请输入课程名称或老师姓名" class="input"><input type="submit" value="搜索" class="sbar_button">
-                    </form>
-                </div>
 
-
-            </div>
         </div>
 
         <div class="tel">
@@ -27,15 +15,24 @@
 </div>
 
 <div class="header">
+    <php>
+        $effected_id="menu-header";
+        $filetpl="<a href='\$href' target='\$target'>\$label</a>";
+        $foldertpl="<a class='dropdown-toggle' href='\$href' target='\$target'>\$label</a>";
+
+
+        $showlevel=6;/*显示的层级*/
+        $dropdown='dropdown';/*含有子目录的li标签的class属性值*/
+    </php>
+
 
     <!-- sline end -->
     <div class="navigationBar">
         <div class="navigationBarInnel">
             <tt title="所有产品分类"></tt>
             <div class="mainMenuV">
-                <a href="http://www.w2bc.com/">首页</a> <a href="http://www.w2bc.com/" target="_blank">
-                网游交易区</a> <a href="http://www.w2bc.com/" target="_blank">积分商城</a> <a href="http://www.w2bc.com/?"
-                                                                                     target="_blank">免费游戏</a>
+                {:sp_get_menus("main",$effected_id,$filetpl,$showlevel)}
+
             </div>
             <!-- mainMenuV end -->
         </div>

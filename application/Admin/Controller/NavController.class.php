@@ -61,9 +61,12 @@ class NavController extends AdminbaseController {
 	 *  添加
 	 */
 	public function add() {
+
 		$cid=$_REQUEST['cid'];
 		$result = $this->nav_model->where("cid=$cid")->order(array("listorder" => "ASC"))->select();
+
 		import("Tree");
+
 		$tree = new \Tree();
 		$tree->icon = array('&nbsp;│ ', '&nbsp;├─ ', '&nbsp;└─ ');
 		$tree->nbsp = '&nbsp;';
@@ -74,7 +77,7 @@ class NavController extends AdminbaseController {
 			$r['selected'] = $r['id']==$parentid?"selected":"";
 			$array[] = $r;
 		}
-			
+
 		$tree->init($array);
 		$str = "<tr>
 				<td><input name='listorders[\$id]' type='text' size='3' value='\$listorder' class='input'></td>
@@ -86,12 +89,15 @@ class NavController extends AdminbaseController {
 		$str="<option value='\$id' \$selected>\$spacer\$label</option>";
 		$nav_trees = $tree->get_tree(0, $str);
 		$this->assign("nav_trees", $nav_trees);
-			
-			
+
+
 		$cats=$this->navcat_model->select();
 		$this->assign("navcats",$cats);
-		$this->assign('navs', $this->_select());
+
+		//$this->assign('navs', $this->_select());
+
 		$this->assign("navcid",$cid);
+
 		$this->display();
 	}
 	
@@ -180,7 +186,7 @@ class NavController extends AdminbaseController {
 			
 		$nav['href'] = $href;
 		$this->assign($nav);
-		$this->assign('navs', $this->_select());
+		//$this->assign('navs', $this->_select());
 		$this->assign("navcid",$cid);
 		$this->display();
 	}
@@ -249,19 +255,25 @@ class NavController extends AdminbaseController {
 	private function _select(){
 		$apps=sp_scan_dir(SPAPP."*");
 		$navs=array();
+
 		foreach ($apps as $a){
 		
 			if(is_dir(SPAPP.$a)){
 				if(!(strpos($a, ".") === 0)){
 					$navfile=SPAPP.$a."/nav.php";
+
 					$app=$a;
 					if(file_exists($navfile)){
 						$navgeturls=include $navfile;
+
 						foreach ($navgeturls as $url){
+
 							$nav= file_get_contents(U("$app/$url",array(),false,true));
+
 							$nav=json_decode($nav,true);
 							$navs[]=$nav;
 						}
+
 					}
 					
 				}

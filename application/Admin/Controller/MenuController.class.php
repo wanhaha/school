@@ -86,6 +86,7 @@ class MenuController extends AdminbaseController {
      *  添加
      */
     public function add() {
+
     	import("Tree");
     	$tree = new \Tree();
     	$parentid = intval(I("get.parentid"));

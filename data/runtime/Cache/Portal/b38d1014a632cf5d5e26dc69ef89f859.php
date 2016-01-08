@@ -8,7 +8,7 @@
 <div class="pMiniBar">
     <div class="wrap clearfix">
         <div class="pTopMap">
-            <div class="tmTit" id="pSchoolMap"><a href="http://www.gaosiedu.com/gsschool/" target="_blank">找到离您最近的高思学校</a><s></s></div>
+            <div class="tmTit" id="pSchoolMap"><a href="http://www.gaosiedu.com/gsschool/" target="_blank">习惯教育专家</a><s></s></div>
             <div class="tmCon">
                 <div class="tmBox">
                     <ul class="schoolList clearfix">
@@ -20,20 +20,10 @@
         <div class="pLogin left "><a href="http://student.gaosiedu.com/?source=aHR0cDovL3d3dy5nYW9zaWVkdS5jb20v" class="btn login">登录</a><a href="http://student.gaosiedu.com/System/User/registerS" class="btn">注册</a></div>
         <div class="pMinav">
             <div class="left">
-                <a href="javascript:void(0);" id="addFavorite" class="s1"><s></s>收藏高思</a>
+                <a href="javascript:void(0);" id="addFavorite" class="s1"><s></s>收藏坤凡</a>
                 <a href="http://student.gaosiedu.com/" target="_blank" class="s2"><s></s>学员系统</a>
             </div>
-            <div class="qxSite left">
-                <a href="http://student.gaosiedu.com/" target="_blank" class="tmTit">
-                    旗下网站<s></s>
-                </a>
-                <ul>
-                    <li><a href="http://www.gaosivip.com/" target="_blank">高思一对一</a></li>
-                    <li><a href="http://www.aisichuang.com/" target="_blank">爱思创</a></li>
-                    <li><a href="http://www.aixuexi.com/" target="_blank">爱学习</a></li>
-                    <li><a href="http://www.91haoke.com/" target="_blank">91好课</a></li>
-                </ul>
-            </div>
+
             <p class="left">投诉建议：56639900（8:00-21:00）   </p>
         </div>
     </div>
@@ -54,22 +44,10 @@
 <?php echo hook('body_start');?>
 <div class="pHeader">
     <div class="wrap clearfix">
-        <div class="logo"><a href="./index_files/index.html">高思教育</a></div>
+        <div class="logo"><a href="./index_files/index.html">坤凡教育</a></div>
 
         <div class="tSearch">
-            <ul class="tabs">
-                <li class="current">模糊搜索</li>
-                <li>条件搜索</li>
-            </ul>
-            <div class="bd">
-                <div class="sInput">
-                    <form method="post" action="http://www.gaosiedu.com/searchbar/search" target="_blank">
-                        <input type="text" name="keyword" placeholder="请输入课程名称或老师姓名" class="input"><input type="submit" value="搜索" class="sbar_button">
-                    </form>
-                </div>
 
-
-            </div>
         </div>
 
         <div class="tel">
@@ -80,15 +58,16 @@
 </div>
 
 <div class="header">
+    <?php $effected_id="menu-header"; $filetpl="<a href='\$href' target='\$target'>\$label</a>"; $foldertpl="<a class='dropdown-toggle' href='\$href' target='\$target'>\$label</a>"; $showlevel=6; $dropdown='dropdown'; ?>
+
 
     <!-- sline end -->
     <div class="navigationBar">
         <div class="navigationBarInnel">
             <tt title="所有产品分类"></tt>
             <div class="mainMenuV">
-                <a href="http://www.w2bc.com/">首页</a> <a href="http://www.w2bc.com/" target="_blank">
-                网游交易区</a> <a href="http://www.w2bc.com/" target="_blank">积分商城</a> <a href="http://www.w2bc.com/?"
-                                                                                     target="_blank">免费游戏</a>
+                <?php echo sp_get_menus("main",$effected_id,$filetpl,$showlevel);?>
+
             </div>
             <!-- mainMenuV end -->
         </div>
@@ -158,7 +137,7 @@
                                     <li><a href="http://www.w2bc.com/">手机游戏</a></li>
                                 </ul>
                             </dd>
-                            <dt>游戏充值类</dt>
+                            <dt>个性化一对一</dt>
                         </dl>
                         <dl class="navM2">
                             <dd>
@@ -173,7 +152,7 @@
                                     <li><a href="http://www.w2bc.com/">IP电话卡</a></li>
                                 </ul>
                             </dd>
-                            <dt>话费充值类</dt>
+                            <dt>精品一对二</dt>
                         </dl>
                         <dl class="navM3">
                             <dd>
@@ -187,7 +166,7 @@
                                     <li><a href="http://www.w2bc.com/">生活服务类</a></li>
                                 </ul>
                             </dd>
-                            <dt>互联网充值类</dt>
+                            <dt>精品一对三</dt>
                         </dl>
                         <dl class="navM4">
                             <dd>
@@ -223,7 +202,7 @@
                                     <a href="http://www.w2bc.com/">30元</a><a href="http://www.w2bc.com/">50元</a><a href="http://www.w2bc.com/">100元</a><a
                                         href="http://www.w2bc.com/" class="more">查看详情...</a></p>
                             </dd>
-                            <dt>缴费支付类</dt>
+                            <dt>精品小班</dt>
                         </dl>
                         <dl class="navM5">
                             <dd>
@@ -237,7 +216,7 @@
                                     <li><a href="http://www.w2bc.com/">在线杀毒卡</a></li>
                                 </ul>
                             </dd>
-                            <dt>软件产品类</dt>
+                            <dt>特色兴趣培养班</dt>
                         </dl>
                         <dl class="navM6">
                             <dd>
@@ -252,7 +231,7 @@
                                 <h2>
                                     <a href="http://www.w2bc.com/" target="_blank">更多超酷游戏</a></h2>
                             </dd>
-                            <dt>超酷游戏</dt>
+                            <dt>兴趣课程</dt>
                         </dl>
                     </div>
                     <!-- mainProNav end -->
@@ -277,14 +256,222 @@
             <a href="<?php echo ($vo["slide_url"]); ?>"><img src="<?php echo sp_get_asset_upload_path($vo['slide_pic']);?>" alt=""></a>
         </li><?php endforeach; endif; ?>
 </ul>
+<link href="http://mooc2.edusoho.cn/assets/v2/bootstrap/css/bootstrap.css?1.4.9" rel="stylesheet">
 
 
-<div class="of_whole">
+<link rel="stylesheet" media="screen" href="http://mooc2.edusoho.cn/themes/mooc/css/theme.css?1.4.9">
+<section class="es-section section-gray" id="course-list">
+    <div class="container">
+        <div class="course-filter section-header" id="course-filter">
+            推荐课程
+            <div class="course-sort btn-group">
+
+            </div>
+        </div>
+        <div class="section-bodyer">
+            <div class="home-course-list row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="course-item">
+                        <div class="course-img ">
+                            <a href="http://mooc2.edusoho.cn/course/37">
+                                <img class="img-responsive" src="./在线教学联盟 - Powered By EduSoho_files/235055f5a97a573998.jpg">
+                            </a>
+                        </div>
+                        <div class="course-caption ">
+                            <div class="title"><a href="http://mooc2.edusoho.cn/course/37">皮牙子旅游</a></div>
+                            <div class="metas clearfix">
+                                <span class="teacher-name">周进学</span>
+                                <!-- <span class="course-period">1课时</span> -->
+                                <span class="student-mun"><i class="es-icon es-icon-people mrm"></i>6人</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="course-item">
+                        <div class="course-img ">
+                            <a href="http://mooc2.edusoho.cn/course/8">
+                                <img class="img-responsive" src="./在线教学联盟 - Powered By EduSoho_files/220343f5358e052002.jpg">
+                            </a>
+                        </div>
+                        <div class="course-caption ">
+                            <div class="title"><a href="http://mooc2.edusoho.cn/course/8">中国文论经典的诗性魅力</a></div>
+                            <div class="metas clearfix">
+                                <span class="teacher-name">李建中</span>
+                                <!-- <span class="course-period">6课时</span> -->
+                                <span class="student-mun"><i class="es-icon es-icon-people mrm"></i>21人</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="course-item">
+                        <div class="course-img ">
+                            <a href="http://mooc2.edusoho.cn/course/5">
+                                <img class="img-responsive" src="./在线教学联盟 - Powered By EduSoho_files/230029d3ce22308657.jpg">
+                            </a>
+                        </div>
+                        <div class="course-caption ">
+                            <div class="title"><a href="http://mooc2.edusoho.cn/course/5">MOOCs制作与运营</a></div>
+                            <div class="metas clearfix">
+                                <span class="teacher-name">汪琼</span>
+                                <!-- <span class="course-period">24课时</span> -->
+                                <span class="student-mun"><i class="es-icon es-icon-people mrm"></i>29人</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="course-item">
+                        <div class="course-img ">
+                            <a href="http://mooc2.edusoho.cn/course/7">
+                                <img class="img-responsive" src="./在线教学联盟 - Powered By EduSoho_files/193027319704636455.jpg">
+                            </a>
+                        </div>
+                        <div class="course-caption ">
+                            <div class="title"><a href="http://mooc2.edusoho.cn/course/7">西方历史的源头</a></div>
+                            <div class="metas clearfix">
+                                <span class="teacher-name">潘迎春</span>
+                                <!-- <span class="course-period">8课时</span> -->
+                                <span class="student-mun"><i class="es-icon es-icon-people mrm"></i>19人</span>
+
+                                <span class="label label-gray-light label-sm">已结束</span>                                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="course-item">
+                        <div class="course-img ">
+                            <a href="http://mooc2.edusoho.cn/course/46">
+                                <img class="img-responsive" src="./在线教学联盟 - Powered By EduSoho_files/15495318ae45386125.jpg">
+                            </a>
+                        </div>
+                        <div class="course-caption ">
+                            <div class="title"><a href="http://mooc2.edusoho.cn/course/46">C语言</a></div>
+                            <div class="metas clearfix">
+                                <span class="teacher-name">张中一</span>
+                                <!-- <span class="course-period">14课时</span> -->
+                                <span class="student-mun"><i class="es-icon es-icon-people mrm"></i>6人</span>
+
+                                <span class="label label-primary label-sm">已开课</span>                                                                  <span class="pull-right"><span class="text-primary">5.0</span>学分</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="course-item">
+                        <div class="course-img ">
+                            <a href="http://mooc2.edusoho.cn/course/34">
+                                <img class="img-responsive" src="./在线教学联盟 - Powered By EduSoho_files/095827346d56754539.png">
+                            </a>
+                        </div>
+                        <div class="course-caption ">
+                            <div class="title"><a href="http://mooc2.edusoho.cn/course/34">大数据研究</a></div>
+                            <div class="metas clearfix">
+                                <span class="teacher-name">张中一</span>
+                                <!-- <span class="course-period">0课时</span> -->
+                                <span class="student-mun"><i class="es-icon es-icon-people mrm"></i>1人</span>
+
+                                <span class="label label-gray-light label-sm">已结束</span>                                          <span class="pull-right"><span class="text-primary">5.0</span>学分</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mvl">
+                <a href="http://mooc2.edusoho.cn/mooc/course/explore" class="btn btn-gylight btn-md">
+                    更多<i class="fa fa-angle-right mls"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="es-section section-gray">
+    <div class="container">
+        <div class="section-header" id="course-filter">
+            名师风采
+        </div>
+        <div class="section-bodyer">
+            <div class="home-teacher-list row">
+                <div class="teacher-item col-md-4 col-sm-4">
+                    <div class="teacher-img">
+                        <a href="http://mooc2.edusoho.cn/user/66">
+                            <img class="img-responsive" src="./在线教学联盟 - Powered By EduSoho_files/215124ceefa4156130.jpg" alt="">
+                            <div class="mask">
+                                <div class="teacher-about">
+                                    穿越千年的丝路传奇~千回西域！...
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="teacher-name">
+                        <a href="http://mooc2.edusoho.cn/user/66">周进学</a>
+                    </div>
+                    <div class="teacher-position">
+                        蓝泽欧网络
+                    </div>              </div>
+                <div class="teacher-item col-md-4 col-sm-4">
+                    <div class="teacher-img">
+                        <a href="http://mooc2.edusoho.cn/user/14">
+                            <img class="img-responsive" src="./在线教学联盟 - Powered By EduSoho_files/1554306eb7d2363898.jpeg" alt="">
+                            <div class="mask">
+                                <div class="teacher-about">
+                                    马费成，男，武汉大学教授、博士生导师，曾任武汉大学信息管理学院院长，现任教育部人...
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="teacher-name">
+                        <a href="http://mooc2.edusoho.cn/user/14">马费成</a>
+                    </div>
+                    <div class="teacher-position">
+                        教授
+                    </div>              </div>
+                <div class="teacher-item col-md-4 col-sm-4">
+                    <div class="teacher-img">
+                        <a href="http://mooc2.edusoho.cn/user/9">
+                            <img class="img-responsive" src="./在线教学联盟 - Powered By EduSoho_files/152741d0a864862514.jpeg" alt="">
+                            <div class="mask">
+                                <div class="teacher-about">
+                                    李志，现任武汉大学哲学学院副教授，入选武汉大学第一批“珞珈青年学者”，主要研究方...
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="teacher-name">
+                        <a href="http://mooc2.edusoho.cn/user/9">李志</a>
+                    </div>
+                    <div class="teacher-position">
+                        副教授
+                    </div>              </div>
+            </div>
+            <div class="text-center mvl">
+                <a href="http://mooc2.edusoho.cn/teacher" class="btn btn-gylight btn-md">
+                    更多 <i class="fa fa-angle-right mls"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="main">
+    <div class="container">
+        <div class="h4title"> <h4>坤凡动态</h4></div>
+        <div>
+            <div class="newsleft">1</div>
+            <div class="newsline">1</div>
+            <div class="newsright">3</div>
+        </div>
+
+    </div>
+
+</div>
     <!--tp通栏广告-->
 
 
 
-</div>
 
 <?php echo hook('footer');?>
 
@@ -336,6 +523,7 @@
 
 
 <?php echo ($site_tongji); ?>
+
 
 <script type="text/javascript">
 //全局变量
@@ -426,6 +614,7 @@ var GV = {
             preload: 'visible'
         });
     });
+
 </script>
 
 

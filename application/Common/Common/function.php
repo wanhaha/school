@@ -479,6 +479,18 @@ function sp_get_menu($id="main",$effected_id="mainmenu",$filetpl="<span class='f
 	return $tree->get_treeview_menu(0,$effected_id, $filetpl, $foldertpl,  $showlevel,$ul_class,$li_class,  $style,  1, FALSE, $dropdown);
 }
 
+function sp_get_menus($id="main",$effected_id="mainmenu",$filetpl="<span class='file'>\$label</span>",$foldertpl="<span class='folder'>\$label</span>",$ul_class="" ,$li_class="" ,$style="filetree",$showlevel=6,$dropdown='hasChild'){
+    $navs=F("site_nav_".$id);
+    if(empty($navs)){
+        $navs=_sp_get_menu_datas($id);
+    }
+    $navtree = '';
+    foreach($navs as $k=>$v){
+        $navtree  .=   '<a href="'.$navs[$k]['href'].'">'.$navs[$k]['label'].'</a>' ;
+    }
+
+    return $navtree;
+}
 
 function _sp_get_menu_datas($id){
 	$nav_obj= M("Nav");
